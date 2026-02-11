@@ -1,71 +1,140 @@
-app_name,mitre_id,severity,category
-CME,T1021,High,OffSec
-Beacon,T1071,High,OffSec
-Bruteratel,T1071,High,OffSec
-BurpSuite,T1190,Low,OffSec
-Chashell,T1059,Medium,OffSec
-CIMplant,T1047,Medium,OffSec
-ConPtyShell,T1059,Medium,OffSec
-Kerbrute,T1110,Medium,OffSec
-Laps,T1552,Medium,OffSec
-msfconsole,T1190,High,OffSec
-Meterpreter,T1071,High,OffSec
-Rubeus,T558,High,OffSec
-Sliver,T1071,High,OffSec
-TinyMet,T1071,Medium,OffSec
-ThunderShell,T1059,Medium,OffSec
-WinPEAS,T1082,Low,OffSec
-SSH,T1021,High,Networking
-Sshimpanzee,T1090,High,Networking
-Chisel,T1090,High,Networking
-Cyberduck,T1048,Medium,Networking
-FileZilla,T1048,Medium,Networking
-Cloudflared,T1090,High,Networking
-Ligolo,T1090,High,Networking
-NSOCKS,T1090,High,Networking
-Plink,T1021,High,Networking
-Ngrok,T1090,High,Networking
-Proxifier,T1090,Medium,Networking
-Rsocks,T1090,High,Networking
-Socat,T1090,High,Networking
-Tailscale,T1090,Medium,Networking
-Termite,T1090,High,Networking
-Truesocks,T1090,High,Networking
-Wstunnel,T1090,High,Networking
-NTDSUtil,T1003,High,LOLBAS/LOLBIN
-BCDEdit,T1490,Medium,LOLBAS/LOLBIN
-Procdump,T1003,High,LOLBAS/LOLBIN
-PAExec,T1021,High,LOLBAS/LOLBIN
-PsExec,T1021,High,LOLBAS/LOLBIN
-WinExe,T1021,High,LOLBAS/LOLBIN
-BITSAdmin,T1197,Medium,LOLBAS/LOLBIN
-Procexp,T1057,Medium,LOLBAS/LOLBIN
-WMIC,T1047,High,LOLBAS/LOLBIN
-WevUtil,T1070,Medium,LOLBAS/LOLBIN
-Backstab,T1059,High,Defense Evasion
-Bedevil,T1562,High,Defense Evasion
-DefenderControl,T1562,High,Defense Evasion
-GMER,T1087,Medium,Defense Evasion
-Eraser,T1070,Medium,Defense Evasion
-FileShredder,T1070,Medium,Defense Evasion
-UnLockIT,T1070,Medium,Defense Evasion
-IObitUnlocker,T1070,Medium,Defense Evasion
-Nsudo,T1134,High,Defense Evasion
-PCHunter64,T1562,High,Defense Evasion
-PowerTool,T1562,High,Defense Evasion
-ProcessHacker,T1057,Medium,Defense Evasion
-TDSSKiller,T1082,Medium,Defense Evasion
-zamsvc,T1562,Medium,Defense Evasion
-uVS,T1082,Medium,Defense Evasion
-Cyberduck,T1048,Medium,Exfiltration
-Dropbox,T1567,Medium,Exfiltration
-FileZilla,T1048,Medium,Exfiltration
-FreeFileSync,T1567,Medium,Exfiltration
-MEGAsync,T1567,High,Exfiltration
-ProtonMail,T1567,Medium,Exfiltration
-PSCP,T1048,High,Exfiltration
-pCloud,T1567,Medium,Exfiltration
-Restic,T1567,High,Exfiltration
-RClone,T1567,High,Exfiltration
-WinSCP,T1048,High,Exfiltration
-AZCopy,T1567,High,Exfiltration
+app_name,mitre_id,severity,category,,,,,,,,,,
+CME,T1021,High,OffSec,,,,,,,,,,
+Beacon,T1071,High,OffSec,,,,,,,,,,
+Bruteratel,T1071,High,OffSec,,,,,,,,,,
+BurpSuite,T1190,Low,OffSec,,,,,,,,,,
+Chashell,T1059,Medium,OffSec,,,,,,,,,,
+CIMplant,T1047,Medium,OffSec,,,,,,,,,,
+ConPtyShell,T1059,Medium,OffSec,,,,,,,,,,
+Kerbrute,T1110,Medium,OffSec,,,,,,,,,,
+Laps,T1552,Medium,OffSec,,,,,,,,,,
+msfconsole,T1190,High,OffSec,,,,,,,,,,
+Meterpreter,T1071,High,OffSec,,,,,,,,,,
+Rubeus,T558,High,OffSec,,,,,,,,,,
+Sliver,T1071,High,OffSec,,,,,,,,,,
+TinyMet,T1071,Medium,OffSec,,,,,,,,,,
+ThunderShell,T1059,Medium,OffSec,,,,,,,,,,
+WinPEAS,T1082,Low,OffSec,,,,,,,,,,
+SSH,T1021,High,Networking,,,,,,,,,,
+Sshimpanzee,T1090,High,Networking,,,,,,,,,,
+Chisel,T1090,High,Networking,,,,,,,,,,
+Cloudflared,T1090,High,Networking,,,,,,,,,,
+Ligolo,T1090,High,Networking,,,,,,,,,,
+NSOCKS,T1090,High,Networking,,,,,,,,,,
+Plink,T1021,High,Networking,,,,,,,,,,
+Ngrok,T1090,High,Networking,,,,,,,,,,
+Proxifier,T1090,Medium,Networking,,,,,,,,,,
+Rsocks,T1090,High,Networking,,,,,,,,,,
+Socat,T1090,High,Networking,,,,,,,,,,
+Tailscale,T1090,Medium,Networking,,,,,,,,,,
+Termite,T1090,High,Networking,,,,,,,,,,
+Truesocks,T1090,High,Networking,,,,,,,,,,
+Wstunnel,T1090,High,Networking,,,,,,,,,,
+NTDSUtil,T1003,High,LOLBAS/LOLBIN,,,,,,,,,,
+BCDEdit,T1490,Medium,LOLBAS/LOLBIN,,,,,,,,,,
+Procdump,T1003,High,LOLBAS/LOLBIN,,,,,,,,,,
+PAExec,T1021,High,LOLBAS/LOLBIN,,,,,,,,,,
+PsExec,T1021,High,LOLBAS/LOLBIN,,,,,,,,,,
+WinExe,T1021,High,LOLBAS/LOLBIN,,,,,,,,,,
+BITSAdmin,T1197,Medium,LOLBAS/LOLBIN,,,,,,,,,,
+Procexp,T1057,Medium,LOLBAS/LOLBIN,,,,,,,,,,
+WMIC,T1047,High,LOLBAS/LOLBIN,,,,,,,,,,
+WevUtil,T1070,Medium,LOLBAS/LOLBIN,,,,,,,,,,
+Backstab,T1059,High,Defense Evasion,,,,,,,,,,
+Bedevil,T1562,High,Defense Evasion,,,,,,,,,,
+DefenderControl,T1562,High,Defense Evasion,,,,,,,,,,
+GMER,T1087,Medium,Defense Evasion,,,,,,,,,,
+Eraser,T1070,Medium,Defense Evasion,,,,,,,,,,
+FileShredder,T1070,Medium,Defense Evasion,,,,,,,,,,
+UnLockIT,T1070,Medium,Defense Evasion,,,,,,,,,,
+IObitUnlocker,T1070,Medium,Defense Evasion,,,,,,,,,,
+Nsudo,T1134,High,Defense Evasion,,,,,,,,,,
+PCHunter64,T1562,High,Defense Evasion,,,,,,,,,,
+PowerTool,T1562,High,Defense Evasion,,,,,,,,,,
+ProcessHacker,T1057,Medium,Defense Evasion,,,,,,,,,,
+TDSSKiller,T1082,Medium,Defense Evasion,,,,,,,,,,
+zamsvc,T1562,Medium,Defense Evasion,,,,,,,,,,
+uVS,T1082,Medium,Defense Evasion,,,,,,,,,,
+Cyberduck,T1048,Medium,Exfiltration,,,,,,,,,,
+Dropbox,T1567,Medium,Exfiltration,,,,,,,,,,
+FileZilla,T1048,Medium,Exfiltration,,,,,,,,,,
+FreeFileSync,T1567,Medium,Exfiltration,,,,,,,,,,
+MEGAsync,T1567,High,Exfiltration,,,,,,,,,,
+ProtonMail,T1567,Medium,Exfiltration,,,,,,,,,,
+PSCP,T1048,High,Exfiltration,,,,,,,,,,
+pCloud,T1567,Medium,Exfiltration,,,,,,,,,,
+Restic,T1567,High,Exfiltration,,,,,,,,,,
+RClone,T1567,High,Exfiltration,,,,,,,,,,
+WinSCP,T1048,High,Exfiltration,,,,,,,,,,
+AZCopy,T1567,High,Exfiltration,,,,,,,,,,
+ADExplorer,T1087,High,Discovery,,,,,,,,,,
+AdFind,T1087,High,Discovery,,,,,,,,,,
+Advanced_IP_Scanner,T1016,Medium,Discovery,,,,,,,,,,
+Advanced_Port_Scanner.exe,T1046,Medium,Discovery,,,,,,,,,,
+ipscan,T1016,Medium,Discovery,,,,,,,,,,
+amazon-ssm-agent,T1021,Low,Discovery,,,,,,,,,,
+BloodHound,T1087,High,Discovery,,,,,,,,,,
+dsquery,T1087,Medium,Discovery,,,,,,,,,,
+Lansweeper,T1016,Low,Discovery,,,,,,,,,,
+nbtscan,T1016,Medium,Discovery,,,,,,,,,,
+winlister,T1057,Low,Discovery,,,,,,,,,,
+nmap,T1046,High,Discovery,,,,,,,,,,
+nping,T1046,Medium,Discovery,,,,,,,,,,
+ldscan,T1016,Medium,Discovery,,,,,,,,,,
+masscan,T1046,High,Discovery,,,,,,,,,,
+PDQInventory,T1016,Medium,Discovery,,,,,,,,,,
+PingCastle,T1482,High,Discovery,,,,,,,,,,
+PsInfo,T1082,Medium,Discovery,,,,,,,,,,`
+rustscan,T1046,High,Discovery,,,,,,,,,,
+RVTools,T1082,Medium,Discovery,,,,,,,,,,
+s3browser,T1530,Medium,Discovery,,,,,,,,,,
+Seatbelt,T1082,High,Discovery,,,,,,,,,,
+sc,T1543,Medium,Discovery,,,,,,,,,,
+SharpHound,T1482,High,Discovery,,,,,,,,,,
+ShareFinder,T1135,High,Discovery,,,,,,,,,,
+SharpShares,T1135,High,Discovery,,,,,,,,,,
+SharpView,T1087,High,Discovery,,,,,,,,,,
+LanSearchPro,T1135,Medium,Discovery,,,,,,,,,,
+netscan,T1046,Medium,Discovery,,,,,,,,,,
+TXPortMap,T1046,Medium,Discovery,,,,,,,,,,
+Action1Agent,T1219,Medium,Remote Access,,,,,,,,,,
+AnyDesk,T1219,High,Remote Access,,,,,,,,,,
+AteraAgent,T1219,Medium,Remote Access,,,,,,,,,,
+ASGRD,T1021,Medium,Remote Access,,,,,,,,,,
+BASupSrvc,T1219,Medium,Remote Access,,,,,,,,,,
+remoting_host,T1219,High,Remote Access,,,,,,,,,,
+domotz,T1219,Low,Remote Access,,,,,,,,,,
+DWAgent,T1219,High,Remote Access,,,,,,,,,,
+FixMeItClient,T1219,Medium,Remote Access,,,,,,,,,,
+fleetdeck_agent,T1219,Medium,Remote Access,,,,,,,,,,
+ITarianAgent,T1219,Medium,Remote Access,,,,,,,,,,
+LevelAgent,T1219,Medium,Remote Access,,,,,,,,,,
+LogMeIn,T1219,High,Remote Access,,,,,,,,,,
+ManageEngineUEMS,T1219,Medium,Remote Access,,,,,,,,,,
+DesktopCentralAgent,T1219,Medium,Remote Access,,,,,,,,,,
+MeshAgent,T1219,High,Remote Access,,,,,,,,,,
+MobaXterm,T1021,Medium,Remote Access,,,,,,,,,,
+WindowsAgent,T1219,Medium,Remote Access,,,,,,,,,,
+client32,T1219,High,Remote Access,,,,,,,,,,
+parsecd,T1219,High,Remote Access,,,,,,,,,,
+PDQDeploy,T1021,Medium,Remote Access,,,,,,,,,,
+PulsewayAgent,T1219,Medium,Remote Access,,,,,,,,,,
+radmin,T1219,High,Remote Access,,,,,,,,,,
+rutserv,T1219,High,Remote Access,,,,,,,,,,
+RemotePCService,T1219,High,Remote Access,,,,,,,,,,
+RPort,T1219,High,Remote Access,,,,,,,,,,
+RustDesk,T1219,High,Remote Access,,,,,,,,,,
+ScreenConnect.Client,T1219,High,Remote Access,,,,,,,,,,
+SimpleHelp,T1219,High,Remote Access,,,,,,,,,,
+Sorillus,T1219,Medium,Remote Access,,,,,,,,,,
+SRService,T1219,High,Remote Access,,,,,,,,,,
+SuperOpsAgent,T1219,Medium,Remote Access,,,,,,,,,,
+Supremo,T1219,High,Remote Access,,,,,,,,,,
+SyncroAgent,T1219,Medium,Remote Access,,,,,,,,,,
+TeamViewer,T1219,High,Remote Access,,,,,,,,,,
+TeamViewer_Service,T1219,High,Remote Access,,,,,,,,,,
+vncviewer,T1219,Medium,Remote Access,,,,,,,,,,
+BasecampAgent,T1219,Medium,Remote Access,,,,,,,,,,
+Twingate,T1219,High,Remote Access,,,,,,,,,,
+ZohoAssist,T1219,High,Remote Access,,,,,,,,,,
+mstsc,T1219,Medium,Remote Access,,,,,,,,,,
