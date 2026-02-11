@@ -1,0 +1,71 @@
+app_name,mitre_id,severity,category
+CME,T1021,High,OffSec
+Beacon,T1071,High,OffSec
+Bruteratel,T1071,High,OffSec
+BurpSuite,T1190,Low,OffSec
+Chashell,T1059,Medium,OffSec
+CIMplant,T1047,Medium,OffSec
+ConPtyShell,T1059,Medium,OffSec
+Kerbrute,T1110,Medium,OffSec
+Laps,T1552,Medium,OffSec
+msfconsole,T1190,High,OffSec
+Meterpreter,T1071,High,OffSec
+Rubeus,T558,High,OffSec
+Sliver,T1071,High,OffSec
+TinyMet,T1071,Medium,OffSec
+ThunderShell,T1059,Medium,OffSec
+WinPEAS,T1082,Low,OffSec
+SSH,T1021,High,Networking
+Sshimpanzee,T1090,High,Networking
+Chisel,T1090,High,Networking
+Cyberduck,T1048,Medium,Networking
+FileZilla,T1048,Medium,Networking
+Cloudflared,T1090,High,Networking
+Ligolo,T1090,High,Networking
+NSOCKS,T1090,High,Networking
+Plink,T1021,High,Networking
+Ngrok,T1090,High,Networking
+Proxifier,T1090,Medium,Networking
+Rsocks,T1090,High,Networking
+Socat,T1090,High,Networking
+Tailscale,T1090,Medium,Networking
+Termite,T1090,High,Networking
+Truesocks,T1090,High,Networking
+Wstunnel,T1090,High,Networking
+NTDSUtil,T1003,High,LOLBAS/LOLBIN
+BCDEdit,T1490,Medium,LOLBAS/LOLBIN
+Procdump,T1003,High,LOLBAS/LOLBIN
+PAExec,T1021,High,LOLBAS/LOLBIN
+PsExec,T1021,High,LOLBAS/LOLBIN
+WinExe,T1021,High,LOLBAS/LOLBIN
+BITSAdmin,T1197,Medium,LOLBAS/LOLBIN
+Procexp,T1057,Medium,LOLBAS/LOLBIN
+WMIC,T1047,High,LOLBAS/LOLBIN
+WevUtil,T1070,Medium,LOLBAS/LOLBIN
+Backstab,T1059,High,Defense Evasion
+Bedevil,T1562,High,Defense Evasion
+DefenderControl,T1562,High,Defense Evasion
+GMER,T1087,Medium,Defense Evasion
+Eraser,T1070,Medium,Defense Evasion
+FileShredder,T1070,Medium,Defense Evasion
+UnLockIT,T1070,Medium,Defense Evasion
+IObitUnlocker,T1070,Medium,Defense Evasion
+Nsudo,T1134,High,Defense Evasion
+PCHunter64,T1562,High,Defense Evasion
+PowerTool,T1562,High,Defense Evasion
+ProcessHacker,T1057,Medium,Defense Evasion
+TDSSKiller,T1082,Medium,Defense Evasion
+zamsvc,T1562,Medium,Defense Evasion
+uVS,T1082,Medium,Defense Evasion
+Cyberduck,T1048,Medium,Exfiltration
+Dropbox,T1567,Medium,Exfiltration
+FileZilla,T1048,Medium,Exfiltration
+FreeFileSync,T1567,Medium,Exfiltration
+MEGAsync,T1567,High,Exfiltration
+ProtonMail,T1567,Medium,Exfiltration
+PSCP,T1048,High,Exfiltration
+pCloud,T1567,Medium,Exfiltration
+Restic,T1567,High,Exfiltration
+RClone,T1567,High,Exfiltration
+WinSCP,T1048,High,Exfiltration
+AZCopy,T1567,High,Exfiltration
