@@ -143,6 +143,7 @@ Twingate,T1219,Medium,Remote Access
 ZohoAssist,T1219,Medium,Remote Access
 mstsc,T1219,Medium,Remote Access
 ultraviewer,T1219,Medium,Remote Access
+UltraViewer_Desktop,T1219,Medium,Remote Access
 UltraViewer_Service,T1219,Medium,Remote Access
 amazon-ssm-agent,T1021,Medium,Remote Execution
 Procexp,T1057,Medium,Remote Execution
@@ -177,4 +178,5 @@ Rsocks,T1572,High,Tunneling
 Socat,T1572,Medium,Tunneling
 Tailscale,T1572,Medium,Tunneling
 Wstunnel,T1572,High,Tunneling
+
 
