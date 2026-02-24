@@ -1,4 +1,3 @@
-ransom_name,Level,hash
 AidLocker,Medium,cedffb8a736fe221ef2df23cffcd190851739c99231456ec892bcc6fc99da5c5
 AstraLocker,High,08565f345878369fdbbcf4a064d9f4762f4549f67d1e2aa3907a112a5e5322b6
 AstraLocker,High,cf3bdf0f8ea4c8ece5f5a76524ab4c81fea6c3a1715b5a86b3ad4d397fca76f3
@@ -1446,3 +1445,4 @@ ZeroLocker,Medium,d4c62215df74753371db33a19a69fccdc4b375c893a4b7f8b30172710fbd4c
 ,,
 ,,
 ,`,
+
