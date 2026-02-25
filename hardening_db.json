@@ -1,9 +1,0 @@
-[
-    {"name": "Block SMBv1", "tag": "System", "cmd": "sc.exe config lanmanworkstation depend= bowser/mrxsmb20/nsi"},
-    {"name": "Disable RDP", "tag": "System", "cmd": "reg add ..."},
-    {"name": "AnyDesk", "tag": "App", "cmd": "taskkill /F /IM anydesk.exe"},
-    {"name": "Mimikatz", "tag": "App", "cmd": "reg add ..."},
-    {"name": "Atera Agent", "tag": "App", "cmd": "sc stop AteraAgent"},
-    {"name": "Advanced IP Scanner", "tag": "App", "cmd": "taskkill /F /IM ipscan.exe"},
-    {"name": "UltraViewer", "tag": "App", "cmd": "taskkill /F /IM UltraViewer.exe"}
-]
