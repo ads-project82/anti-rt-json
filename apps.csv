@@ -1,0 +1,167 @@
+Action1Agent,Remote Access
+ADExplorer,Privilege Escalation
+AdFind,Privilege Escalation
+Advanced_IP_Scanner,Network Scanner
+Advanced_Port_Scanner,Network Scanner
+amazon-ssm-agent,Remote Access
+AnyDesk,Remote Desktop
+ASGRD,Offensive Framework
+AteraAgent,Remote Access
+AWS_consoler,Malware Tools
+AZCopy,Exfiltration
+Backstab,Offensive Framework
+BasecampAgent,Remote Access
+BASupSrvc,Remote Desktop
+Beacon,Offensive Framework
+Bedevil,Offensive Framework
+BetterSafetyKatz,Malware Tools
+BloodHound,Privilege Escalation
+Bruteratel,Offensive Framework
+BulletsPassView,Credential Dumping
+BurpSuite,Offensive Framework
+Chashell,Offensive Framework
+Chisel,Exfiltration
+ChromePass,Credential Dumping
+CIMplant,Offensive Framework
+client32,Remote Access
+Cloudflared,Exfiltration
+CME,Offensive Framework
+ConPtyShell,Offensive Framework
+Cyberduck,Credential Dumping
+DefenderControl,Defense Evasion
+DesktopCentralAgent,Remote Access
+domotz,Exfiltration
+DonPAPI,Malware Tools
+Dropbox,Dual-use Tools
+DWAgent,Remote Access
+Eraser,Defense Evasion
+extpassword,Credential Dumping
+FileShredder,Defense Evasion
+FileZilla,Dual-use Tools
+FixMeItClient,Remote Access
+fleetdeck_agent,Remote Access
+FreeFileSync,Exfiltration
+GMER,Defense Evasion
+gosecretsdump,Credential Dumping
+GrabChrome,Malware Tools
+GrabFF,Malware Tools
+IObitUnlocker,Defense Evasion
+ipscan,Network Scanner
+ITarianAgent,Remote Access
+KeeThief,Malware Tools
+Kerbrute,Privilege Escalation
+LanSearchPro,Exfiltration
+Lansweeper,Living-off-the-Land
+Laps,Credential Dumping
+LaZagne,Malware Tools
+ldscan,Privilege Escalation
+LevelAgent,Remote Access
+Ligolo,Exfiltration
+LogMeIn,Remote Desktop
+LostMyPassword,Credential Dumping
+MagnetRAMCapture,Forensic
+mailpv,Credential Dumping
+ManageEngineUEMS,Remote Access
+masscan,Network Scanner
+MEGAsync,Dual-use Tools
+MeshAgent,Remote Access
+Meterpreter,Offensive Framework
+Mimikatz,Malware Tools
+mitkerberos,Credential Dumping
+MobaXterm,Exfiltration
+msfconsole,Offensive Framework
+nbtscan,Network Scanner
+netpass,Malware Tools
+netscan (Volatility),Network Scanner
+Ngrok,Exfiltration
+nmap,Network Scanner
+nping,Network Scanner
+NSOCKS,Tunneling
+Nsudo,Defense Evasion
+PAExec,Living-off-the-Land
+parsecd,Remote Access
+PasswordFox,Credential Dumping
+PCHunter64,Defense Evasion
+pCloud,Dual-use Tools
+PDQDeploy,Living-off-the-Land
+PDQInventory,Living-off-the-Land
+PingCastle,Privilege Escalation
+Plink,Exfiltration
+PowerTool,Privilege Escalation
+Procdump,Defense Evasion
+ProcessHacker,Defense Evasion
+Procexp,Defense Evasion
+ProtonMail,Exfiltration
+Proxifier,Exfiltration
+PSCP,Dual-use Tools
+PsExec,Defense Evasion
+PsInfo,Defense Evasion
+PulsewayAgent,Remote Access
+radmin,Remote Desktop
+RClone,Exfiltration
+RDPRecognizer,Privilege Escalation
+RemotePCService,Remote Desktop
+remoting_host,Remote Desktop
+Restic,Exfiltration
+routerpassview,Malware Tools
+RouterScan,Network Scanner
+RPort,Tunneling
+Rsocks,Exfiltration
+Rubeus,Privilege Escalation
+RustDesk,Remote Desktop
+rustscan,Network Scanner
+rutserv,Remote Desktop
+RVTools,Privilege Escalation
+s3browser,Exfiltration
+ScreenConnect.Client,Remote Desktop
+Seatbelt,Privilege Escalation
+SecretServerSecretStealer,Malware Tools
+SessionGopher,Malware Tools
+ShareFinder,Privilege Escalation
+SharpChrome,Malware Tools
+SharpDump,Credential Dumping
+SharpHound,Privilege Escalation
+SharpKatz,Malware Tools
+SharpShares,Privilege Escalation
+SharpView,Privilege Escalation
+SimpleHelp,Remote Desktop
+Sliver,Offensive Framework
+Snaffler,Malware Tools
+sniffpass,Malware Tools
+Socat,Exfiltration
+Sorillus,Tunneling
+SRService,Remote Desktop
+SSH,Exfiltration
+Sshimpanzee,Tunneling
+SuperOpsAgent,Remote Access
+Supremo,Remote Desktop
+SyncroAgent,Remote Access
+Tailscale,Exfiltration
+TDSSKiller,Defense Evasion
+TeamViewer,Remote Desktop
+TeamViewer_Service,Remote Desktop
+Termite,Exfiltration
+ThunderShell,Offensive Framework
+TinyMet,Offensive Framework
+Truesocks,Exfiltration
+trufflehog,Credential Dumping
+Twingate,Tunneling
+TXPortMap,Network Scanner
+UltraViewer,Remote Desktop
+UltraViewer_Desktop,Remote Desktop
+UltraViewer_Service,Remote Desktop
+UnlockIT,Defense Evasion
+uVS,Offensive Framework
+vncpv,Credential Dumping
+vncviewer,Remote Desktop
+volatility,Forensic
+WebBrowserPassView,Credential Dumping
+WinExe,Living-off-the-Land
+winlister,Privilege Escalation
+WinPEAS,Privilege Escalation
+WinSCP,Dual-use Tools
+WirelessKeyView,Credential Dumping
+Wstunnel,Tunneling
+XenArmor,Credential Dumping
+zamsvc,Offensive Framework
+ZohoAssist,Remote Desktop
