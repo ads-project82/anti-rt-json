@@ -1,4 +1,3 @@
-name,hash,category
 Action1Agent,,RemoteAccess
 Action1RMM,84444d44ee0e4f1d8a4b312f55e9f0fb58a336523ba6f9ac71fba506d613dad7,RemoteAccess
 Action1RMM,eda13877d525b8092335096bad7c06994312d5374b813b940627d1734f72be79,RemoteAccess
@@ -2776,3 +2775,4 @@ Wstunnel,,Tunneling
 XenArmor,,CredentialDumping
 zamsvc,,OffensiveFramework
 ZohoAssist,,RemoteDesktop
+
